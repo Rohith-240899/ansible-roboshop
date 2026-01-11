@@ -7,11 +7,11 @@
     zone_id: Z03832471PHL8H6PNCY32
     domain_name: "rohithdevops.fun"
     # we can pass instances through command line using -e
-    instances: 
-    - mongodb
-    - redis
-    - mysql
-    - rabbitmq
+    # instances: 
+    # - mongodb
+    # - redis
+    # - mysql
+    # - rabbitmq
   tasks:
   - name: create ec2 instance
     amazon.aws.ec2_instance:
